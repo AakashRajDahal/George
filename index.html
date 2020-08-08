@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>George</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    Hello everyone
-  </body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/f5f8b1d2df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <audio src="./happyBirthday.mp3" id="birthdatMpThree" loop="loop" autoplay="autoplay"></audio>
+
+    <div class="wrapper">
+        <div class="boyImage">
+            <img src="./images/boy.png" alt="" />
+        </div>
+
+        <div class="birdayBoi">
+            <div class="birth">
+                <div class="title">
+                    <p><strong>Happy Birthday </strong>George</p>
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+                        <i class="fa fa-birthday-cake"></i>
+                        <div class="date">
+                            <p>August 8th 2014</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="fa fa-music"></i>
+                        <div class="date">
+                            <a href="https://www.youtube.com/watch?v=gOMhN-hfMtY&list=RDs1-D8UOq7iA&index=11" target="_blank" onclick="stopMusic()">
+                                <p>Happy Time Song</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ballons" onclick="playMusic()">
+                <div class="ballon">
+                    <img src="./images/birthday.png" alt="" />
+                </div>
+                <div class="lyrics">
+                    <p>Happy Birthday to You</p>
+                    <p>Happy Birthday to You</p>
+                    <p>Happy Birthday Dear <b>George</b></p>
+                    <p>Happy Birthday to You.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
 </html>
