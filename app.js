@@ -1,11 +1,11 @@
-window.onload = function () {
-  document.getElementById("birthdayMpThree").play();
+window.onload = function() {
+    document.getElementById("birthdayMpThree").play();
 };
 
 function stopMusic() {
-  document.getElementById("birthdatMpThree").pause();
+    document.getElementById("birthdatMpThree").pause();
 }
 
 function playMusic() {
-  document.getElementById("birthdatMpThree").play();
+    document.getElementById("birthdatMpThree").play();
 }
