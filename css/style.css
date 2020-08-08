@@ -127,6 +127,7 @@ a {
         align-items: center;
         flex-direction: column;
         height: 50vh;
+        width: 100vw;
     }
     .birth {
         display: flex;
@@ -140,6 +141,9 @@ a {
         justify-content: flex-start;
         color: #ea4335;
         font-size: 3em;
+    }
+    .cards {
+        width: 100vw;
     }
     .card {
         color: #ffffff;
@@ -162,10 +166,16 @@ a {
         border-radius: 32px;
         opacity: 1;
     }
+    .ballon {
+        flex: 1;
+    }
+    .lyrics {
+        flex: 2;
+    }
     .ballon img {
-        width: 50%;
+        width: 100%;
     }
     .lyrics p {
-        font-size: 0.25em;
+        font-size: 0.35em;
     }
 }
